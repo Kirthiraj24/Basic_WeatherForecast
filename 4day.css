@@ -1,0 +1,89 @@
+.day1 {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+  }
+  .day1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin-top: 90px;
+  }
+  .price .first {
+    background-color: #FF7F50;
+    color: black;
+    font-size: 18px;
+  }
+  .price .color {
+    background-color: #eee;
+    font-size: 18px;
+  }
+  .day2 {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+  }
+  .day2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .day3 {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .day3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .day4 {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-left: 430px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+  .day4:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  /* .day5{
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+  .day5:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  } */
+ .input{
+     margin-top: 7px;
+     text-align: center;
+ }
+ .btn{
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ .para{
+    margin-top: 100px;
+ }

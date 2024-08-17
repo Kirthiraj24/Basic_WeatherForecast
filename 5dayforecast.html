@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Site</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="homebody.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="4day.css">
+  </head>
+  <body onload="Defaultscreen()">
+    <nav>
+        <div class="nav-content">
+          <div class="logo">
+            <a href="#">My Weather</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="price.html">Price</a></li>
+            <li><a href="5dayforecast.html">Detailed_Report</a></li>
+            <li><a href="#">About</a></li>
+            <!-- <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li> -->
+          </ul>
+        </div>
+    </nav>
+    
+    <!-- <p class="para">Weather For <span id="cityName"> </span></p> -->
+    <div class="day1">
+        <ul class="price">
+          <li class="first">Temp InfoT</li>
+          <li class="color">Temperature =  <span id="t"></span> <sup>&deg;</sup>C</li>
+          <li>feels_Like =  <span id="fl"></span> <sup>&deg;</sup>C</li>
+          <li>Humidity =  <span id="hu"></span> <sup>%</sup>C</li>
+          <li>is_day =  <span id="is"></span></li>
+          <!-- <li>Temperature =  <span id="temp"></span></li> -->
+          <!-- <li class="grey"><a href="#" class="button">Sign Up</a></li> -->
+        </ul>
+      </div>
+      <div class="day2">
+        <ul class="price">
+          <li class="first">Wind Info</li>
+          <li class="color">Wind speed = <span id="ws"></span> km/hr</li>
+          <li>Wind direction =  <span id="wd"></span></li>
+          <li>Wind deg  =  <span id="wdeg"></span> <sup>&deg;</sup></li>
+          <li>max_temp =  <span id="day2Max"></span></li>
+          <!-- <li>Temperature =  <span id="temp"></span></li> -->
+          <!-- <li class="grey"><a href="#" class="button">Sign Up</a></li> -->
+        </ul>
+      </div>
+      <div class="day3">
+        <ul class="price">
+          <li class="first">Pressire & precip Info</li>
+          <li class="color">Precip_In =  <span id="pi"></span></li>
+          <li>Precip_mm =  <span id="pm"></span> </li>
+          <li>pressure_in =  <span id="presin"></span></li>
+          <li>pressure_mb =  <span id="presm"></span></li>
+          <!-- <li>Temperature =  <span id="temp"></span></li> -->
+          <!-- <li class="grey"><a href="#" class="button">Sign Up</a></li> -->
+        </ul>
+      </div>
+      <form>
+      <center>
+      <input class="input" type="text" id="cityInput" placeholder="Enter city name ">
+      <button class="btn" type="submit">Find</button>
+    </center>
+    </form>
+      <div class="day4">
+        <ul class="price">
+          <li class="first">Other info</li>
+          <li class="color">UV =  <span id="uv"></span></li>
+          <li>Cloud =  <span id="cld"></span></li>
+          <!-- <li>min_temp  =  <span id="day4Min"></span> <sup>&deg;</sup>C</li>
+          <li>max_temp =  <span id="day4Max"></span> <sup>&deg;</sup>C</li> -->
+          <!-- <li>Temperature =  <span id="temp"></span></li> -->
+          <!-- <li class="grey"><a href="#" class="button">Sign Up</a></li> -->
+        </ul>
+      </div>
+      <!-- <div class="day5">
+        <ul class="price">
+          <li class="first">Temp Info</li>
+          <li class="color">Temperature =  <span></span> <sup>&deg;</sup>C</li>
+          <li>feels_Like =  <span id="day5Feels"></span> <sup>&deg;</sup>C</li>
+          <li>min_temp  =  <span id="day5Min"></span> <sup>&deg;</sup>C</li>
+          <li>max_temp =  <span id="day5Max"></span> <sup>&deg;</sup>C</li>
+           <li>Temperature =  <span id="temp"></span></li> -->
+          <!-- <li class="grey"><a href="#" class="button">Sign Up</a></li> -->
+        </ul>
+      </div> 
+      <!-- <script src="5day.js"></script> -->
+      <script src="forecast.js"></script>
+</body>
+</html>
